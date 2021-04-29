@@ -8,6 +8,8 @@ import type { ChainProperties, ChainType } from '@polkadot/types/interfaces';
 import type { KeyringStore } from '@polkadot/ui-keyring/types';
 import type { ApiProps, ApiState } from './types';
 
+import cennznetTypes from '@cennznet/types/interfaces/injects';
+
 import { typesChain, typesSpec } from '@canvas-ui/app-config/api';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 
@@ -177,7 +179,44 @@ function Api ({ children, store, url }: Props): React.ReactElement<Props> | null
     const provider = new WsProvider(url);
     const signer = new ApiSigner(queuePayload, queueSetTxStatus);
 
-    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec });
+    const cennznet2ExtraTypes = {
+      BlockWeights: {
+        base_block: 'Weight',
+        max_block: 'Weight',
+        per_class: 'PerDispatchClass1'
+      },
+      PerDispatchClass1: {
+        normal: 'WeightsPerClass',
+        operational: 'WeightsPerClass',
+        mandatory: 'WeightsPerClass'
+      },
+      PerDispatchClass2: {
+        normal: 'u32',
+        operational: 'u32',
+        mandatory: 'u32'
+      },
+      ConsumedWeight: {
+        normal: 'Weight',
+        operational: 'Weight',
+        mandatory: 'Weight'
+      },
+      WeightsPerClass: {
+        base_extrinsic: 'Weight',
+        max_extrinsic: 'Option<Weight>',
+        max_total: 'Option<Weight>',
+        reserved: 'Option<Weight>'
+      },
+      BlockLength: {
+        max: 'PerDispatchClass2'
+      },
+      DeletedContract: {
+        pair_count: 'u32',
+        trie_id: 'TrieId'
+      },
+      Slot: 'u64'
+    };
+
+    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec, types: { ...cennznetTypes, ...cennznet2ExtraTypes } });
 
     api.on('connected', () => setIsApiConnected(true));
     api.on('disconnected', () => setIsApiConnected(false));
