@@ -8,7 +8,7 @@ import type { ChainProperties, ChainType } from '@polkadot/types/interfaces';
 import type { KeyringStore } from '@polkadot/ui-keyring/types';
 import type { ApiProps, ApiState } from './types';
 
-import cennznetTypes from '@cennznet/types/interfaces/injects';
+import cennznetTypes, { typesBundle } from '@cennznet/types/interfaces/injects';
 
 import { typesChain, typesSpec } from '@canvas-ui/app-config/api';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
@@ -216,7 +216,7 @@ function Api ({ children, store, url }: Props): React.ReactElement<Props> | null
       Slot: 'u64'
     };
 
-    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec, types: { ...cennznetTypes, ...cennznet2ExtraTypes } });
+    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec, types: { ...cennznetTypes, ...cennznet2ExtraTypes }, typesBundle });
 
     api.on('connected', () => setIsApiConnected(true));
     api.on('disconnected', () => setIsApiConnected(false));
