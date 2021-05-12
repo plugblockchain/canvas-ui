@@ -3,15 +3,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Icon as IconType, IconName } from '@fortawesome/fontawesome-svg-core';
-import type { SubmittableExtrinsic } from '@polkadot/api/types';
+import type { SubmittableExtrinsic } from '@cennznet/api/types';
 
 import { ActionStatus, TxCallback, TxFailedCallback } from '@canvas-ui/react-api/Status/types';
 import { VoidFn } from '@canvas-ui/react-util/types';
 import { WithTranslation } from 'react-i18next';
 
 // import { ButtonProps as SUIButtonProps } from 'semantic-ui-react/dist/commonjs/elements/Button/Button';
-import { AccountId, Index } from '@polkadot/types/interfaces';
-import { TypeDef } from '@polkadot/types/types';
+import { AccountId, Index } from '@cennznet/types/interfaces';
+import { TypeDef } from '@cennznet/types/types';
 
 export interface BareProps {
   children?: React.ReactNode;

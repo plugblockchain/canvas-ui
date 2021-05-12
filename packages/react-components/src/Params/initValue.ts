@@ -4,8 +4,8 @@
 
 import { registry } from '@canvas-ui/react-api';
 
-import { createType, getTypeDef, Raw } from '@polkadot/types';
-import { TypeDef, TypeDefInfo } from '@polkadot/types/types';
+import { createType, getTypeDef, Raw } from '@cennznet/types';
+import { TypeDef, TypeDefInfo } from '@cennznet/types/types';
 import { BN_ZERO, isBn } from '@polkadot/util';
 
 const warnList: string[] = [];

@@ -11,8 +11,8 @@ import React, { useCallback, useMemo } from 'react';
 import { useHistory } from 'react-router';
 import styled from 'styled-components';
 
-import { Option } from '@polkadot/types';
-import { PrefabWasmModule } from '@polkadot/types/interfaces';
+import { Option } from '@cennznet/types';
+import { PrefabWasmModule } from '@cennznet/types/interfaces';
 import { isHex } from '@polkadot/util';
 
 import { useTranslation } from './translate';

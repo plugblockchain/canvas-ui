@@ -8,7 +8,7 @@ import { Props } from '@canvas-ui/react-components/types';
 import BN from 'bn.js';
 import React, { useRef } from 'react';
 
-import { GenericVote } from '@polkadot/types';
+import { GenericVote } from '@cennznet/types';
 
 import Bare from './Bare';
 

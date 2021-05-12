@@ -11,8 +11,8 @@ import { truncate } from '@canvas-ui/react-util';
 import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 import styled from 'styled-components';
 
-import { TypeRegistry } from '@polkadot/types';
-import { TypeDef } from '@polkadot/types/types';
+import { TypeRegistry } from '@cennznet/types';
+import { TypeDef } from '@cennznet/types/types';
 
 import useSendTx from './useSendTx';
 

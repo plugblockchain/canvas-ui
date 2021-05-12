@@ -7,8 +7,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { AbiMessage } from '@polkadot/api-contract/types';
-import { encodeTypeDef, TypeRegistry } from '@polkadot/types';
-import { CodecArg } from '@polkadot/types/types';
+import { encodeTypeDef, TypeRegistry } from '@cennznet/types';
+import { CodecArg } from '@cennznet/types/types';
 
 import Icon from './Icon';
 import MessageArg from './MessageArg';

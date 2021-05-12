@@ -7,8 +7,8 @@ import { StatusContext } from '@canvas-ui/react-components';
 import { useApi, useScrollToTop } from '@canvas-ui/react-hooks';
 import { useContext, useEffect, useMemo, useState } from 'react';
 
-import { ApiPromise } from '@polkadot/api';
-import { DefinitionRpcExt } from '@polkadot/types/types';
+import { Api as ApiPromise } from '@cennznet/api';
+import { DefinitionRpcExt } from '@cennznet/types/types';
 import { assert, isFunction, loggerFormat } from '@polkadot/util';
 
 interface ItemState {

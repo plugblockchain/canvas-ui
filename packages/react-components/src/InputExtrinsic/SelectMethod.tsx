@@ -6,8 +6,8 @@ import { classes } from '@canvas-ui/react-util';
 import { DropdownOptions } from '@canvas-ui/react-util/types';
 import React, { useCallback } from 'react';
 
-import { ApiPromise } from '@polkadot/api';
-import { SubmittableExtrinsicFunction } from '@polkadot/api/types';
+import { Api as ApiPromise } from '@cennznet/api';
+import { SubmittableExtrinsicFunction } from '@cennznet/api/types';
 
 import Dropdown from '../Dropdown';
 import { BareProps } from '../types';

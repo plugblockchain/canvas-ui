@@ -7,8 +7,8 @@ import { truncate } from '@canvas-ui/react-util';
 import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
-import { createTypeUnsafe, Option } from '@polkadot/types';
-import { AnyJson, Codec, Registry, TypeDef, TypeDefInfo } from '@polkadot/types/types';
+import { createTypeUnsafe, Option } from '@cennznet/types';
+import { AnyJson, Codec, Registry, TypeDef, TypeDefInfo } from '@cennznet/types/types';
 import { isNull } from '@polkadot/util';
 
 import AddressSmall from './AddressMini';

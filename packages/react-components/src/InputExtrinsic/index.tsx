@@ -6,7 +6,7 @@ import { useApi } from '@canvas-ui/react-hooks';
 import { DropdownOptions } from '@canvas-ui/react-util/types';
 import React, { useCallback, useState } from 'react';
 
-import { SubmittableExtrinsicFunction } from '@polkadot/api/types';
+import { SubmittableExtrinsicFunction } from '@cennznet/api/types';
 
 import methodOptions from './options/method';
 import sectionOptions from './options/section';

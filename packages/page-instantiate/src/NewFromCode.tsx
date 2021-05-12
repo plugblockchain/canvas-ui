@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @canvas-ui/app-instantiate authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableResult } from '@polkadot/api';
-import type { SubmittableExtrinsic } from '@polkadot/api/types';
-import type { AccountId } from '@polkadot/types/interfaces';
+import type { SubmittableResult } from '@cennznet/api';
+import type { SubmittableExtrinsic } from '@cennznet/api/types';
+import type { AccountId } from '@cennznet/types/interfaces';
 import type { ComponentProps as Props } from './types';
 
 import { Button, Dropdown, Input, InputABI, InputAddress, InputBalance, InputMegaGas, InputName, MessageArg, MessageSignature, Toggle, TxButton } from '@canvas-ui/react-components';

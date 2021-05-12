@@ -6,8 +6,8 @@ import { registry } from '@canvas-ui/react-api';
 import { ParamDef } from '@canvas-ui/react-components/types';
 import { useEffect, useState } from 'react';
 
-import { getTypeDef } from '@polkadot/types';
-import { TypeDef } from '@polkadot/types/types';
+import { getTypeDef } from '@cennznet/types';
+import { TypeDef } from '@cennznet/types/types';
 
 function expandDef (td: TypeDef): TypeDef {
   try {

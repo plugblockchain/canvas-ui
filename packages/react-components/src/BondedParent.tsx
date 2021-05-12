@@ -6,8 +6,8 @@ import { BareProps } from '@canvas-ui/react-api/types';
 import { useApi, useCall } from '@canvas-ui/react-hooks';
 import React from 'react';
 
-import { Option } from '@polkadot/types';
-import { AccountId, AccountIndex, Address, StakingLedger } from '@polkadot/types/interfaces';
+import { Option } from '@cennznet/types';
+import { AccountId, AccountIndex, Address, StakingLedger } from '@cennznet/types/interfaces';
 
 import FormatBalance from './FormatBalance';
 

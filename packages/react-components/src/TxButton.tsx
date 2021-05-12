@@ -2,13 +2,13 @@
 // and @canvas-ui/react-components authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableExtrinsic } from '@polkadot/api/types';
+import type { SubmittableExtrinsic } from '@cennznet/api/types';
 import type { TxButtonProps as Props } from './types';
 
 import { useIsMountedRef } from '@canvas-ui/react-hooks';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 
-import { SubmittableResult } from '@polkadot/api';
+import { SubmittableResult } from '@cennznet/api';
 import { assert, isFunction } from '@polkadot/util';
 
 import Button from './Button';

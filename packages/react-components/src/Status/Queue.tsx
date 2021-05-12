@@ -8,12 +8,12 @@ import { QueueProvider } from '@canvas-ui/react-api/Status/Context';
 import { ActionStatus, PartialQueueTxExtrinsic, PartialQueueTxRpc, QueueStatus, QueueTx, QueueTxExtrinsic, QueueTxRpc, QueueTxStatus, SignerCallback } from '@canvas-ui/react-api/Status/types';
 import React, { useCallback, useRef, useState } from 'react';
 
-import { SubmittableResult } from '@polkadot/api';
-import { SubmittableExtrinsic } from '@polkadot/api/promise/types';
-import { createType } from '@polkadot/types';
-import { DispatchError } from '@polkadot/types/interfaces';
+import { SubmittableResult } from '@cennznet/api';
+import { SubmittableExtrinsic } from '@cennznet/api/types';
+import { createType } from '@cennznet/types';
+import { DispatchError } from '@cennznet/types/interfaces';
 import jsonrpc from '@polkadot/types/interfaces/jsonrpc';
-import { ITuple, SignerPayloadJSON } from '@polkadot/types/types';
+import { ITuple, SignerPayloadJSON } from '@cennznet/types/types';
 import { u8aToString } from '@polkadot/util';
 
 import { BareProps } from '../types';

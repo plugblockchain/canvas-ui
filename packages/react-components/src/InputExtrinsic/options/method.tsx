@@ -5,7 +5,7 @@
 import { DropdownOption, DropdownOptions } from '@canvas-ui/react-util/types';
 import React from 'react';
 
-import { ApiPromise } from '@polkadot/api';
+import { Api as ApiPromise } from '@cennznet/api';
 
 export default function createOptions (api: ApiPromise, sectionName: string): DropdownOptions {
   const section = api.tx[sectionName];

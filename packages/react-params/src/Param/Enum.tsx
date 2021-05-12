@@ -6,8 +6,8 @@ import { Dropdown } from '@canvas-ui/react-components';
 import { ParamDef, Props, RawParam } from '@canvas-ui/react-components/types';
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { Enum } from '@polkadot/types';
-import { TypeDef } from '@polkadot/types/types';
+import { Enum } from '@cennznet/types';
+import { TypeDef } from '@cennznet/types/types';
 
 import Bare from './Bare';
 import Params from './Params';

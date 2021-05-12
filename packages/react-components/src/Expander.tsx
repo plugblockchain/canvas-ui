@@ -7,7 +7,7 @@ import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
-import { Text } from '@polkadot/types';
+import { Text } from '@cennznet/types';
 
 import Icon from './Icon';
 import { useTranslation } from './translate';

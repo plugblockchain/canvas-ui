@@ -5,7 +5,7 @@
 import { ComponentMap, RawParam, RawParamOnChangeValue, RawParams } from '@canvas-ui/react-components/types';
 import React, { useCallback } from 'react';
 
-import { TypeDef } from '@polkadot/types/types';
+import { TypeDef } from '@cennznet/types/types';
 
 import Param from './Param';
 

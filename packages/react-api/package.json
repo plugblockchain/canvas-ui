@@ -32,7 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "@canvas-ui/app-config": "workspace:packages/app-config",
-    "@polkadot/api": "^4.6.2",
+    "@cennznet/api": "^2.0.0-alpha.2",
     "@polkadot/api-derive": "4.6.2",
     "@polkadot/api-rx": "^0.30.45",
     "@polkadot/extension-dapp": "^0.37.2",

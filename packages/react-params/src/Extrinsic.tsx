@@ -6,9 +6,9 @@ import InputExtrinsic from '@canvas-ui/react-components/InputExtrinsic';
 import { BareProps, RawParam } from '@canvas-ui/react-components/types';
 import React, { useCallback, useEffect, useState } from 'react';
 
-import { SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@polkadot/api/types';
-import { GenericCall, getTypeDef } from '@polkadot/types';
-import { TypeDef } from '@polkadot/types/types';
+import { SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@cennznet/api/types';
+import { GenericCall, getTypeDef } from '@cennznet/types';
+import { TypeDef } from '@cennznet/types/types';
 import { isUndefined } from '@polkadot/util';
 
 import Params from './Param/Params';

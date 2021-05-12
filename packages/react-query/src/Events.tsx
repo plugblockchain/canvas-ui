@@ -5,7 +5,7 @@
 import { useApi } from '@canvas-ui/react-hooks';
 import React, { useEffect, useState } from 'react';
 
-import { BlockNumber, EventRecord } from '@polkadot/types/interfaces';
+import { BlockNumber, EventRecord } from '@cennznet/types/interfaces';
 import { stringToU8a } from '@polkadot/util';
 import { xxhashAsHex } from '@polkadot/util-crypto';
 

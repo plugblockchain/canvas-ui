@@ -10,7 +10,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import { DeriveAccountInfo, DeriveAccountRegistration } from '@polkadot/api-derive/types';
-import { AccountId, AccountIndex, Address } from '@polkadot/types/interfaces';
+import { AccountId, AccountIndex, Address } from '@cennznet/types/interfaces';
 import { isFunction, stringToU8a } from '@polkadot/util';
 
 import Badge from './Badge';

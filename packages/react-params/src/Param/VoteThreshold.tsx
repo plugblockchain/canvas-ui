@@ -7,7 +7,7 @@ import { Dropdown } from '@canvas-ui/react-components';
 import { Props } from '@canvas-ui/react-components/types';
 import React, { useCallback } from 'react';
 
-import { ClassOf } from '@polkadot/types';
+import { ClassOf } from '@cennznet/types';
 import { bnToBn } from '@polkadot/util';
 
 import Bare from './Bare';

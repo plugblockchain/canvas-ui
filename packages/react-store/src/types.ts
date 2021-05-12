@@ -3,7 +3,7 @@
 
 // Moved from @canvas-ui/apps -> react-store
 
-import { AnyJson } from '@polkadot/types/types';
+import { AnyJson } from '@cennznet/types/types';
 
 interface CodeBase {
   id: string;
