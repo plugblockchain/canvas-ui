@@ -36,6 +36,7 @@
     "afterSign": "electron-builder-notarize"
   },
   "resolutions": {
+    "rxjs": "^7.0.1",
     "babel-core": "^7.0.0-bridge.0"
   },
   "scripts": {
