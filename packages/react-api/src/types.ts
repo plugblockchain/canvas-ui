@@ -2,8 +2,8 @@
 // and @canvas-ui/react-api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiPromise } from '@polkadot/api';
-import { SubmittableExtrinsicFunction } from '@polkadot/api/promise/types';
+import { Api as ApiPromise } from '@cennznet/api';
+import { SubmittableExtrinsicFunction } from '@cennznet/api/types';
 import { InjectedExtension } from '@polkadot/extension-inject/types';
 
 // helpers for HOC props

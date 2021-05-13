@@ -2,11 +2,11 @@
 // and @canvas-ui/react-signer authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { SubmittableResult } from '@polkadot/api';
-import { Signer, SignerResult } from '@polkadot/api/types';
-import { ClassOf } from '@polkadot/types';
-import { Hash } from '@polkadot/types/interfaces';
-import { SignerPayloadJSON } from '@polkadot/types/types';
+import { SubmittableResult } from '@cennznet/api';
+import { Signer, SignerResult } from '@cennznet/api/types';
+import { ClassOf } from '@cennznet/types';
+import { Hash } from '@cennznet/types/interfaces';
+import { SignerPayloadJSON } from '@cennznet/types/types';
 
 import { QueueTxMessageSetStatus, QueueTxPayloadAdd, QueueTxStatus } from './Status/types';
 import { registry } from '.';
