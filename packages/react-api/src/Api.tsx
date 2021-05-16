@@ -177,7 +177,19 @@ function Api ({ children, store, url }: Props): React.ReactElement<Props> | null
     const provider = new WsProvider(url);
     const signer = new ApiSigner(queuePayload, queueSetTxStatus);
 
-    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec });
+    api = new ApiPromise({
+      provider,
+      registry,
+      signer,
+      typesChain,
+      typesSpec,
+      types: { 'Address': 'AccountId', 'LookupSource': 'AccountId' },
+      typesAlias: {
+        'contracts': {
+          'Weight': 'Compact<u64>'
+        }
+      }
+    });
 
     api.on('connected', () => setIsApiConnected(true));
     api.on('disconnected', () => setIsApiConnected(false));
