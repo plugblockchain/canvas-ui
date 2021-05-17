@@ -2,7 +2,7 @@
 // and @canvas-ui/test-support authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiPromise } from '@polkadot/api/promise';
+import { Api as ApiPromise } from '@cennznet/api';
 import { WsProvider } from '@polkadot/rpc-provider';
 
 import { SUBSTRATE_PORT } from '../substrate';

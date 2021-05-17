@@ -7,7 +7,7 @@ import BN from 'bn.js';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import { Compact } from '@polkadot/types';
+import { Compact } from '@cennznet/types';
 import { formatBalance } from '@polkadot/util';
 
 import { useTranslation } from './translateFormatBalance';

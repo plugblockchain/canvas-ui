@@ -10,7 +10,7 @@ import styled from 'styled-components';
 import { followCursor } from 'tippy.js';
 
 import { AbiMessage } from '@polkadot/api-contract/types';
-import { Registry } from '@polkadot/types/types';
+import { Registry } from '@cennznet/types/types';
 
 import { ELEV_3_CSS } from './styles/constants';
 import Button from './Button';

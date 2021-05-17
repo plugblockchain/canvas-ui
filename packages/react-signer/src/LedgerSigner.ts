@@ -4,9 +4,9 @@
 
 import { getLedger, registry } from '@canvas-ui/react-api';
 
-import { Signer, SignerResult } from '@polkadot/api/types';
-import { createType } from '@polkadot/types';
-import { SignerPayloadJSON } from '@polkadot/types/types';
+import { Signer, SignerResult } from '@cennznet/api/types';
+import { createType } from '@cennznet/types';
+import { SignerPayloadJSON } from '@cennznet/types/types';
 
 let id = 0;
 

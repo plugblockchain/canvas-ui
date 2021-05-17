@@ -2,7 +2,7 @@
 // and @canvas-ui/react-params authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec } from '@polkadot/types/types';
+import type { Codec } from '@cennznet/types/types';
 
 import { Static } from '@canvas-ui/react-components';
 import { useTranslation } from '@canvas-ui/react-components/Params/translate';

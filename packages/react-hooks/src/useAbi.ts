@@ -8,7 +8,7 @@ import { VoidFn } from '@canvas-ui/react-util/types';
 import { useCallback, useEffect, useState } from 'react';
 
 import { Abi } from '@polkadot/api-contract';
-import { AnyJson } from '@polkadot/types/types';
+import { AnyJson } from '@cennznet/types/types';
 import { u8aToString } from '@polkadot/util';
 
 import { useTranslation } from './translate';

@@ -4,14 +4,14 @@
 
 import type BN from 'bn.js';
 import type { InjectedExtension } from '@polkadot/extension-inject/types';
-import type { ChainProperties, ChainType } from '@polkadot/types/interfaces';
+import type { ChainProperties, ChainType } from '@cennznet/types/interfaces';
 import type { KeyringStore } from '@polkadot/ui-keyring/types';
 import type { ApiProps, ApiState } from './types';
 
 import { typesChain, typesSpec } from '@canvas-ui/app-config/api';
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 
-import { ApiPromise } from '@polkadot/api/promise';
+import { Api as ApiPromise } from '@cennznet/api';
 import { deriveMapCache, setDeriveCache } from '@polkadot/api-derive/util';
 import { web3Accounts, web3Enable } from '@polkadot/extension-dapp';
 import { WsProvider } from '@polkadot/rpc-provider';
@@ -177,7 +177,19 @@ function Api ({ children, store, url }: Props): React.ReactElement<Props> | null
     const provider = new WsProvider(url);
     const signer = new ApiSigner(queuePayload, queueSetTxStatus);
 
-    api = new ApiPromise({ provider, registry, signer, typesChain, typesSpec });
+    api = new ApiPromise({
+      provider,
+      registry,
+      signer,
+      typesChain,
+      typesSpec,
+      types: { 'Address': 'AccountId', 'LookupSource': 'AccountId' },
+      typesAlias: {
+        'contracts': {
+          'Weight': 'Compact<u64>'
+        }
+      }
+    });
 
     api.on('connected', () => setIsApiConnected(true));
     api.on('disconnected', () => setIsApiConnected(false));

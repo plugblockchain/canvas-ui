@@ -5,7 +5,7 @@
 import { BareProps, RawParamOnChange, RawParamOnEnter, RawParamOnEscape } from '@canvas-ui/react-components/types';
 import React, { useCallback } from 'react';
 
-import { SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@polkadot/api/types';
+import { SubmittableExtrinsic, SubmittableExtrinsicFunction } from '@cennznet/api/types';
 
 import BaseExtrinsic from '../Extrinsic';
 

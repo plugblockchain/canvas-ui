@@ -7,7 +7,7 @@ import BN from 'bn.js';
 import React from 'react';
 import SUIProgress from 'semantic-ui-react/dist/commonjs/modules/Progress/Progress';
 
-import { UInt } from '@polkadot/types';
+import { UInt } from '@cennznet/types';
 import { bnToBn, isBn, isUndefined } from '@polkadot/util';
 
 import { BareProps } from './types';

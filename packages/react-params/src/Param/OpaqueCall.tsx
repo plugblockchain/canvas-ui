@@ -6,7 +6,7 @@ import { registry } from '@canvas-ui/react-api';
 import { Props } from '@canvas-ui/react-components/types';
 import React from 'react';
 
-import { Bytes } from '@polkadot/types';
+import { Bytes } from '@cennznet/types';
 
 import CallDisplay from './CallDisplay';
 import Unknown from './Unknown';

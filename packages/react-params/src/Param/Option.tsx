@@ -8,7 +8,7 @@ import { Props } from '@canvas-ui/react-components/types';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-import { TypeDef } from '@polkadot/types/types';
+import { TypeDef } from '@cennznet/types/types';
 
 import Param from './Param';
 

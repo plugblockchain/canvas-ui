@@ -5,8 +5,8 @@
 import { registry } from '@canvas-ui/react-api';
 import { ComponentMap, Props } from '@canvas-ui/react-components/types';
 
-import { getTypeDef } from '@polkadot/types';
-import { TypeDef, TypeDefInfo } from '@polkadot/types/types';
+import { getTypeDef } from '@cennznet/types';
+import { TypeDef, TypeDefInfo } from '@cennznet/types/types';
 import { isBn } from '@polkadot/util';
 
 import Account from './Account';

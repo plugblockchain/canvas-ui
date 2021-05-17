@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/react-hooks authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Weight } from '@polkadot/types/interfaces';
+import type { Weight } from '@cennznet/types/interfaces';
 import type { UseWeight } from './types';
 
 import BN from 'bn.js';
@@ -16,7 +16,7 @@ export default function useWeight (): UseWeight {
   const [blockTime] = useBlockTime();
   const [megaGas, _setMegaGas] = useState<BN>(
     (api.consts.system.blockWeights
-      ? api.consts.system.blockWeights.maxBlock
+      ? api.consts.system.blockWeights.max_block
       : api.consts.system.maximumBlockWeight as Weight
     ).div(BN_MILLION).div(BN_TEN)
   );
@@ -25,7 +25,7 @@ export default function useWeight (): UseWeight {
   const setMegaGas = useCallback(
     (value?: BN | undefined) => _setMegaGas(value || (
       (api.consts.system.blockWeights
-        ? api.consts.system.blockWeights.maxBlock
+        ? api.consts.system.blockWeights.max_block
         : api.consts.system.maximumBlockWeight as Weight
       ).div(BN_MILLION).div(BN_TEN)
     )),
@@ -42,7 +42,7 @@ export default function useWeight (): UseWeight {
       weight = megaGas.mul(BN_MILLION);
       executionTime = weight.muln(blockTime).div(
         api.consts.system.blockWeights
-          ? api.consts.system.blockWeights.maxBlock
+          ? api.consts.system.blockWeights.max_block
           : api.consts.system.maximumBlockWeight as Weight
       ).toNumber();
       percentage = (executionTime / blockTime) * 100;

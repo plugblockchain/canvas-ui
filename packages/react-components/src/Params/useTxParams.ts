@@ -4,7 +4,7 @@
 
 import { useEffect, useState } from 'react';
 
-import { TypeDef } from '@polkadot/types/types';
+import { TypeDef } from '@cennznet/types/types';
 
 import { RawParams, UseTxParamsHook } from '../types';
 import createValues from './values';

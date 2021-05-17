@@ -10,7 +10,7 @@ import { useAccounts, useApi } from '@canvas-ui/react-hooks';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { ApiPromise } from '@polkadot/api';
+import { Api as ApiPromise } from '@cennznet/api';
 import { isFunction } from '@polkadot/util';
 
 const DUMMY_COUNTER = (): null => null;

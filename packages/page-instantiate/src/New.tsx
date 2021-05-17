@@ -16,10 +16,10 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { SubmittableResult } from '@polkadot/api';
-import { SubmittableExtrinsic } from '@polkadot/api/types';
+import { SubmittableResult } from '@cennznet/api';
+import { SubmittableExtrinsic } from '@cennznet/api/types';
 import { BlueprintPromise as Blueprint } from '@polkadot/api-contract';
-import { AccountId } from '@polkadot/types/interfaces';
+import { AccountId } from '@cennznet/types/interfaces';
 import keyring from '@polkadot/ui-keyring';
 import { randomAsHex } from '@polkadot/util-crypto';
 

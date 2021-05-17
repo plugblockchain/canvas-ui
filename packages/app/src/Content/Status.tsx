@@ -7,7 +7,7 @@ import { Status as StatusDisplay } from '@canvas-ui/react-components';
 import { useAccounts, useApi, useCall } from '@canvas-ui/react-hooks';
 import React, { useEffect } from 'react';
 
-import { EventRecord } from '@polkadot/types/interfaces';
+import { EventRecord } from '@cennznet/types/interfaces';
 import { KeyringOptions } from '@polkadot/ui-keyring/options/types';
 import { stringToU8a } from '@polkadot/util';
 import { xxhashAsHex } from '@polkadot/util-crypto';

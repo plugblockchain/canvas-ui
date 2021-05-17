@@ -4,8 +4,8 @@
 
 import React from 'react';
 
-import { encodeTypeDef } from '@polkadot/types';
-import { CodecArg, Registry } from '@polkadot/types/types';
+import { encodeTypeDef } from '@cennznet/types';
+import { CodecArg, Registry } from '@cennznet/types/types';
 
 import Data from './Data';
 import { BareProps, ParamDef } from './types';

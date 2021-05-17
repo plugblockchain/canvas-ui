@@ -11,7 +11,7 @@ import store from '@canvas-ui/react-store/store';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { SubmittableResult } from '@polkadot/api';
+import { SubmittableResult } from '@cennznet/api';
 import { compactAddLength, isNull, isWasm } from '@polkadot/util';
 
 import { useTranslation } from './translate';

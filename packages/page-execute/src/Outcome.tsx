@@ -7,8 +7,8 @@ import { BareProps } from '@canvas-ui/react-components/types';
 import React from 'react';
 import styled from 'styled-components';
 
-import { TypeRegistry } from '@polkadot/types';
-import { ContractExecResultResult } from '@polkadot/types/interfaces';
+import { TypeRegistry } from '@cennznet/types';
+import { ContractExecResultResult } from '@cennznet/types/interfaces';
 
 import { CallResult } from './types';
 

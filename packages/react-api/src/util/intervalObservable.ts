@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { Subscription } from 'rxjs';
-import { interval } from 'rxjs/observable/interval';
+import { interval } from 'rxjs';
 
 import { CallState } from '../types';
 

@@ -6,8 +6,8 @@ import { useAbi, useApi, useAppNavigation, useCall, useFile, useNonEmptyString, 
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import styled from 'styled-components';
 
-import { Option } from '@polkadot/types';
-import { ContractInfo } from '@polkadot/types/interfaces';
+import { Option } from '@cennznet/types';
+import { ContractInfo } from '@cennznet/types/interfaces';
 import keyring from '@polkadot/ui-keyring';
 
 import { useTranslation } from './translate';

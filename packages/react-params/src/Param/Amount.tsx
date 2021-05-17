@@ -8,7 +8,7 @@ import { Props } from '@canvas-ui/react-components/types';
 import BN from 'bn.js';
 import React, { useCallback, useMemo } from 'react';
 
-import { ClassOf } from '@polkadot/types';
+import { ClassOf } from '@cennznet/types';
 import { bnToBn, formatNumber, isUndefined } from '@polkadot/util';
 
 import Bare from './Bare';

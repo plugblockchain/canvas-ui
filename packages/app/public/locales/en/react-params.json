@@ -18,8 +18,11 @@
   "conviction: Conviction": "conviction: Conviction",
   "details": "details",
   "exclude option": "exclude option",
+  "extrinsic hash": "extrinsic hash",
   "file upload": "file upload",
   "include option": "include option",
+  "lifetime": "lifetime",
+  "tip": "tip",
   "type": "type",
   "{{count}} key/value pairs encoded for submission": "{{count}} key/value pairs encoded for submission"
 }

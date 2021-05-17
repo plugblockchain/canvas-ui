@@ -7,7 +7,7 @@ import BN from 'bn.js';
 import React from 'react';
 import styled from 'styled-components';
 
-import { AccountId, AccountIndex, Address } from '@polkadot/types/interfaces';
+import { AccountId, AccountIndex, Address } from '@cennznet/types/interfaces';
 import { KeyringItemType } from '@polkadot/ui-keyring/types';
 
 import AccountName from './AccountName';

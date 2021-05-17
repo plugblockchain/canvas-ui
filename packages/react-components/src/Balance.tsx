@@ -6,7 +6,7 @@ import { classes } from '@canvas-ui/react-util';
 import BN from 'bn.js';
 import React from 'react';
 
-import { AccountId, AccountIndex, Address } from '@polkadot/types/interfaces';
+import { AccountId, AccountIndex, Address } from '@cennznet/types/interfaces';
 import { BN_ZERO } from '@polkadot/util';
 
 import Balance from './BalanceParent';

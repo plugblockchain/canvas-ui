@@ -6,8 +6,8 @@ import { classes } from '@canvas-ui/react-util';
 import React from 'react';
 import styled from 'styled-components';
 
-import { TypeRegistry } from '@polkadot/types';
-import { Codec, TypeDef } from '@polkadot/types/types';
+import { TypeRegistry } from '@cennznet/types';
+import { Codec, TypeDef } from '@cennznet/types/types';
 
 import CopyButton from './CopyButton';
 import Data from './Data';

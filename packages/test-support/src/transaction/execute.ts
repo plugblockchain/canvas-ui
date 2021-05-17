@@ -4,9 +4,9 @@
 
 import { waitFor } from '@testing-library/react';
 
-import { SubmittableExtrinsic } from '@polkadot/api/types';
+import { SubmittableExtrinsic } from '@cennznet/api/types';
 import { KeyringPair } from '@polkadot/keyring/types';
-import { EventRecord, ExtrinsicStatus } from '@polkadot/types/interfaces';
+import { EventRecord, ExtrinsicStatus } from '@cennznet/types/interfaces';
 
 export async function execute (extrinsic: SubmittableExtrinsic<'promise'>, singer: KeyringPair, logger = { info: console.log }): Promise<void> {
   let currentTxDone = false;

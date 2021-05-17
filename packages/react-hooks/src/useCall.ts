@@ -4,7 +4,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-import { Codec } from '@polkadot/types/types';
+import { Codec } from '@cennznet/types/types';
 import { isNull, isUndefined } from '@polkadot/util';
 
 import { CallOptions, CallParam, CallParams } from './types';

@@ -7,7 +7,7 @@ import { useApi, useCall } from '@canvas-ui/react-hooks';
 import React from 'react';
 
 import { DeriveBalancesAll } from '@polkadot/api-derive/types';
-import { AccountId, AccountIndex, Address } from '@polkadot/types/interfaces';
+import { AccountId, AccountIndex, Address } from '@cennznet/types/interfaces';
 
 import FormatBalance from './FormatBalance';
 

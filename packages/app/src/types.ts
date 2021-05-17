@@ -2,7 +2,7 @@
 // and @canvas-ui/app authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { AnyJson } from '@polkadot/types/types';
+import { AnyJson } from '@cennznet/types/types';
 
 interface CodeBase {
   id: string;

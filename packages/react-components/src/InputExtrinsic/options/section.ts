@@ -4,7 +4,7 @@
 
 import { DropdownOptions } from '@canvas-ui/react-util/types';
 
-import { ApiPromise } from '@polkadot/api';
+import { Api as ApiPromise } from '@cennznet/api';
 
 export default function createOptions (api: ApiPromise): DropdownOptions {
   return Object

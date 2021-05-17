@@ -7,7 +7,7 @@ import { useTranslation } from '@canvas-ui/react-components/Params/translate';
 import { RawParam, RawParamOnChange, RawParamOnEnter, RawParamOnEscape, Size } from '@canvas-ui/react-components/types';
 import React, { useCallback, useState } from 'react';
 
-import { TypeDef } from '@polkadot/types/types';
+import { TypeDef } from '@cennznet/types/types';
 import { compactAddLength, hexToU8a, isAscii, isHex, isU8a, stringToU8a, u8aToHex, u8aToString } from '@polkadot/util';
 import { decodeAddress } from '@polkadot/util-crypto';
 

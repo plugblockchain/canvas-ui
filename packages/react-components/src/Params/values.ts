@@ -2,7 +2,7 @@
 // and @canvas-ui/react-components authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { CodecArg, TypeDef } from '@polkadot/types/types';
+import { CodecArg, TypeDef } from '@cennznet/types/types';
 import { isUndefined } from '@polkadot/util';
 
 import { RawParam } from '../types';

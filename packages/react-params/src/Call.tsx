@@ -11,9 +11,9 @@ import BN from 'bn.js';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-import { GenericCall, getTypeDef } from '@polkadot/types';
-import { Hash } from '@polkadot/types/interfaces';
-import { Codec, IExtrinsic, IMethod, TypeDef } from '@polkadot/types/types';
+import { GenericCall, getTypeDef } from '@cennznet/types';
+import { Hash } from '@cennznet/types/interfaces';
+import { Codec, IExtrinsic, IMethod, TypeDef } from '@cennznet/types/types';
 
 import Params from './Param/Params';
 

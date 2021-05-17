@@ -5,7 +5,7 @@ import { Static } from '@canvas-ui/react-components';
 import { Props } from '@canvas-ui/react-components/types';
 import React from 'react';
 
-import { Extrinsic } from '@polkadot/types/interfaces';
+import { Extrinsic } from '@cennznet/types/interfaces';
 
 import Call from '../Call';
 import Bare from './Bare';

@@ -6,7 +6,7 @@ import { Props } from '@canvas-ui/react-components/types';
 import { useApi } from '@canvas-ui/react-hooks';
 import React from 'react';
 
-import { SubmittableExtrinsicFunction } from '@polkadot/api/types';
+import { SubmittableExtrinsicFunction } from '@cennznet/api/types';
 
 import Extrinsic from './Extrinsic';
 
